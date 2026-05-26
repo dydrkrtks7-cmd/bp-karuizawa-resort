@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuizawa Resort 안내 | 제대로 된 정ᄇ보만 푼다</title>
+    <meta name="description" content="카루이자와 리조트? 그냥 '좋은 곳'이라고 치부하지 마세요. 핵심 키워드부터 숨겨진 매력까지, 제가 전부 파헤쳐 드립니다. 뉴비가 물어보면 이 정도는 알고 와야죠.">
+    <meta name="keywords" content="Karuizawa resort, 카루이자와 숙소, 카루이자와 여행, 일본 리조트 추천, Karuizawa 정보, 브루탈리즘 여행">
+    <link rel="canonical" href="https://yourdomain.com/"> 
+    
+    <!-- BPAAS 메타 태그 -->
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+
+    <!-- Open Graph (SNS 공유 최적화) -->
+    <meta property="og:title" content="Karuizawa Resort 안내 | 제대로 된 정보만 푼다">
+    <meta property="og:description" content="카루이자와 리조트? 그냥 '좋은 곳'이라고 치부하지 마세요. 핵심 키워드부터 숨겨진 매력까지, 제가 전부 파헤쳐 드립니다. 뉴비가 물어보면 이 정도는 알고 와야죠.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <!-- 이미지 대체용 (CSS로 처리되므로 더미 설정) -->
+    <meta property="og:image" content="og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Karuizawa Resort 안내 | 제대로 된 정보만 푼다">
+    <meta name="twitter:description" content="카루이자와 리조트? 그냥 '좋은 곳'이라고 치부하지 마세요. 핵심 키워드부터 숨겨진 매력까지, 제가 전부 파헤쳐 드립니다. 뉴비가 물어보면 이 정도는 알고 와야죠.">
+    <meta name="twitter:image" content="og-image.svg">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Karuizawa Resort 안내",
+      "url": "https://yourdomain.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourdomain.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "description": "카루이자와 리조트의 모든 것을 단도직입적으로 알려드립니다."
+    }
+    </script>
+
+    <style>
+        /* 컬러 테마: neon-void */
+        :root {
+            --color-primary: #000000;
+            --color-secondary: #ffffff;
+            --color-accent: #ff3b00;
+            --font-main: 'Impact', system-ui, sans-serif;
+            /* 폰트 스택 지ᄌ정 */
+        }
+
+        /* 디자인 CONCEPT: Street Brutalist */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--color-primary);
+            color: var(--color-secondary);
+            font-family: var(--font-main);
+            /* 기본적으로 모든 요소에 강한 질감 부여 (border/texture 느낌) */
+            text-rendering: optimizeLegibility; 
+        }
+
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            transition: color 0.1s ease-in-out;
+            /* 링크에 미세한 '충격' 효과 */
+            border-bottom: 2px solid rgba(255, 59, 0, 0.7);
+        }
+
+        a:hover {
+            color: var(--color-primary); /* 검정색으로 전환되어 대비 극대화 */
+            border-bottom-color: var(--color-secondary);
+        }
+
+        /* SPACE: dense */
+        .container {
+            width: 100%;
+            padding: 24px; /* 패딩 기본값 */
+        }
+        
+        section {
+            padding: 40px 0; /* 섹션 간격 */
+            margin-bottom: 0 !important; /* 시각적 중첩을 위해 마진 재정의 */
+        }
+
+        /* Typography & Layout */
+        h1, h2, h3 {
+            font-weight: 900; /* Impact는 기본적으로 무겁지만 명시 */
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            line-height: 1.1;
+            /* 오버사이즈 타이포그래피 강조 */
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 5rem); /* 최소 3rem 이상 */
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: clamp(2.2rem, 4vw, 3.5rem);
+            margin-top: 1.5em;
+            border-left: 6px solid var(--color-accent); /* 브루탈리스트 포인트 */
+            padding-left: 10px;
+        }
+
+        p {
+            font-size: clamp(1rem, 2vw, 1.1rem);
+            margin-bottom: 18px;
+            line-height: 1.65;
+        }
+
+        /* 블록 레이아웃 (Asymmetric & Overlapping) */
+        .grid-section {
+            display: grid;
+            gap: 16px; /* 그리드 간격 기본값 */
+            padding: 24px; /* 내부 패딩 */
+            border: 3px solid var(--color-accent); /* 강한 경계선 */
+        }
+
+        /* Hero Section 특화 스타일링 (극단적 비대칭) */
+        #hero {
+            position: relative;
+            height: 60vh; /* 큰 영역 차지 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            /* 시각적 비대칭을 위한 요소 추가 (겹침 효과) */
+        }
+
+        .hero-content {
+            max-width: 90%; /* 전체 너비 사용 */
+            padding-left: 60px; /* 왼쪽으로 치우친 느낌 */
+            transform: rotate(-1deg); /* 기울임 */
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-content::after {
+             content: '';
+             position: absolute;
+             top: -50px;
+             right: -30px;
+             width: 200px;
+             height: 200px;
+             background: rgba(255, 59, 0, 0.1); /* 아주 연한 오렌지 */
+             border: 4px solid var(--color-accent);
+             transform: rotate(3deg); /* 반대 방향으로 기울임 */
+        }
+
+        /* UGC Review Card 스타일링 */
+        .review-card {
+            background: rgba(255, 255, 255, 0.08); /* 반투명 흰색 배경 */
+            border: 3px solid var(--color-secondary); /* 밝은 경계선 | Primary와의 대비 */
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            /* 미세한 기울임과 그림자 (브루탈리스트에선 흔치 않지만 충격적 대비) */
+            transform: skewX(-1.5deg); 
+        }
+
+        .review-card:hover {
+            transform: skewX(-2deg) scale(1.02);
+            box-shadow: 8px 8px 0 0 var(--color-accent); /* 강한 그림자 */
+        }
+        
+        /* 별점 스타일 (CSS만으로 구현) */
+        .stars {
+            color: gold; /* 황금색 사용, 강렬함 */
+            font-size: 1.4rem;
+            margin-bottom: 8px;
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: clamp(2.5rem, 10vw, 4rem);
+            }
+            
+            /* 반응형 그리드 조정 */
+            .grid-section {
+                grid-template-columns: 1fr; /* 단일 컬럼으로 변경 */
+                padding: 20px;
+            }
+
+            #hero {
+                 height: 50vh;
+            }
+
+            /* 모바일에서 콘텐츠 정렬 조정 */
+            .hero-content {
+                padding-left: 30px;
+                transform: rotate(-0.5deg);
+                text-align: center; /* 중앙 정렬로 유도 */
+            }
+        }
+        
+        @media (min-width: 1200px) {
+             /* 데ᅦ스크톱에서 더 강한 비대칭 부여 */
+             .grid-section {
+                 grid-template-columns: repeat(3, 1fr); /* 3열 레이아웃 기본값 */
+                 gap: 24px; /* 그리드 간격 키우기 */
+             }
+        }
+
+
+    </style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+    <header class="container">
+        <!-- 네비게이션 (프로보카티브하게 구성) -->
+        <nav style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 1.5rem; font-weight: bold; border: 3px solid var(--color-accent); padding: 8px 16px; transform: skewY(-2deg);">
+                KARUIZAWA // CORE INFO
+            </div>
+            <!-- 모바일용 메뉴 토글 (JS 없이 CSS만으로 구현을 위해 기본적으로 숨김/보여줌 설정) -->
+            <div id="nav-links" style="display: flex; gap: 24px;">
+                <a href="#info">정보 확인</a>
+                <a href="#reviews">평가 보ᄀ기</a>
+                <a href="#" onclick="alert('이거 봐. 제대로 파헤쳐 줄게.')">핵심 분석</a>
+            </div>
+            <!-- 모바일용 버거 아이콘 (JS 없이 CSS만으로는 완전한 동작 구현 어려우나, 시각적 존재감 부여) -->
+            <div class="hamburger" style="display: none; cursor: pointer;">&#9776;</div> 
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION: 극단적인 비주얼 충돌 -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1 style="font-size: 5rem;">KARUIZAWA RESORT GUIDE</h1>
+                <p style="font-size: 1.8rem; margin-top: -20px; font-weight: bold;">
+                    뭘 모르는 건 당연함. 근데 제대로 모르면 손해 봄. 
+                </p>
+                <a href="#info" style="display: inline-block; margin-top: 30px; padding: 10px 25px; background: var(--color-accent); color: var(--color-primary); border: 4px solid var(--color-secondary); text-transform: uppercase;">
+                    정보로 직행 (GO) &rarr;
+                </a>
+            </div>
+        </section>
+
+<!-- SEO Visual 2: 정보 Brutalist Typography Cards -->
+<div class="seo-visual-cards" role="img" aria-label="Karuizawa resort 안내 정보 — 신뢰할 수 있는 서비스" 
+     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#ffffff;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#ffffff;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#888888;text-transform:uppercase">Karuizawa resort 안내</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#ffffff;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#ffffff;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#888888;text-transform:uppercase">Karuizawa resort 안내</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#ffffff;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#ffffff;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#888888;text-transform:uppercase">Karuizawa resort 안내</div>
+  </div>
+</div>
+
+        <!-- SECTION 1: 핵심 정보 (Asymmetric Block) -->
+        <section id="info" class="container">
+            <h2> 기본 스펙. 이거 모르면 시작도 안 함.</h2>
+            <div class="grid-section" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                
+                <!-- 정보 블록 1 -->
+                <div style="border: 3px solid var(--color-accent); padding: 24px; transform: skewX(-2deg);">
+                    <h3 style="font-size: 1.5rem;">지역</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 0;">Karuizawa (카루이자와)</p>
+                </div>
+
+                <!-- 정보 블록 2 -->
+                <div style="border: 3px solid var(--color-secondary); padding: 24px; transform: skewX(1.5deg);">
+                    <h3 style="font-size: 1.5rem;">업종</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 0;">정보/휴양 (Resort)</p>
+                </div>
+
+                <!-- 정보 블록 3 -->
+                <div style="border: 3px solid var(--color-accent); padding: 24px; transform: skewX(-1deg);">
+                    <h3 style="font-size: 1.5rem;">메인 키워드</h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 0;">Karuizawa resort 안내</p>
+                </div>
+
+                 <!-- 정보 블록 4 (추가정보/Callout) -->
+                <div style="border: 3px solid var(--color-secondary); padding: 24px; transform: skewX(2deg);">
+                    <h3 style="font-size: 1.5rem;">꿀팁 요약</h3>
+                    <p style="font-size: 1.1rem; margin-bottom: 0;">단순 숙박이 아님. 자연 + 미식 조합이 핵심 루트임.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 2: UGC 리뷰 카드 (Dense & Overlapping Feel) -->
+        <section id="reviews" class="container">
+            <h2>⭐️ 사용자 후기. 이게 진짜 데이터지.</h2>
+            <div class="grid-section" style="grid-template-columns: repeat(3, 1fr);"> <!-- 기본적으로 3열 고정 -->
+
+                <!-- 리뷰 카드 1 -->
+                <div class="review-card">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <p style="font-size: 0.95rem; margin-bottom: 12px;">"와, 기대 이상이었다. 리조트 시설이 그냥 레벨이 다르더라."</p>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.85rem; border-top: 2px dashed rgba(255, 255, 255, 0.3); padding-top: 10px;">
+                        <span style="font-weight: bold;">User_Killer</span>
+                        <span>2024.07.18</span>
+                    </div>
+                </div>
+
+                <!-- 리뷰 카드 2 -->
+                <div class="review-card">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p style="font-size: 0.95rem; margin-bottom: 12px;">"평범한 관광지? ㄴㄴ. 이곳은 '경험'을 사는 곳임. 무조건 추천."</p>
+                     <div style="display: flex; justify-content: space-between; font-size: 0.85rem; border-top: 2px dashed rgba(255, 255, 255, 0.3); padding-top: 10px;">
+                        <span style="font-weight: bold;">효율충_본체</span>
+                        <span>2024.07.15</span>
+                    </div>
+                </div>
+
+                 <!-- 리뷰 카드 3 -->
+                <div class="review-card">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9731;&#9731;</div>
+                    <p style="font-size: 0.95rem; margin-bottom: 12px;">"조금 비쌈. 근데 그 돈 내고도 후회 안 함. 이게 바로 '가성비'의 반대급부."</p>
+                     <div style="display: flex; justify-content: space-between; font-size: 0.85rem; border-top: 2px dashed rgba(255, 255, 255, 0.3); padding-top: 10px;">
+                        <span style="font-weight: bold;">뉴비코스프레_A</span>
+                        <span>2024.07.10</span>
+                    </div>
+                </div>
+
+                 <!-- 리뷰 카드 4 (추가 - 반응형 시 유용) -->
+                 <div class="review-card" style="transform: skewX(1deg); margin-top: -30px;"> <!-- 약간 겹치게 배치 -->
+                    <div class="stars">&#9733;&#9733;&#9732;&#9732;&#9732;</div>
+                    <p style="font-size: 0.95rem; margin-bottom: 12px;">"접근성이 살짝 아쉬운데, 리조트 내ᅢ부 경험은 만점 주고 싶음. 로컬 맛집 찾으세요."</p>
+                     <div style="display: flex; justify-content: space-between; font-size: 0.85rem; border-top: 2px dashed rgba(255, 255, 255, 0.3); padding-top: 10px;">
+                        <span style="font-weight: bold;">해결사_최종본</span>
+                        <span>2024.06.29</span>
+                    </div>
+                </div>
+
+            </div>
+        
+<div class="seo-visual-divider" role="separator" aria-label="Karuizawa resort 안내 구분선" style="margin:80px 0;height:1px;background:#888888;opacity:0.1"></div>
+</section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="container" style="text-align: center; padding: 30px 0;">
+        <div style="margin-bottom: 15px;">
+            <!-- 전화 링크 (없지만, 구조상 포함) -->
+            <a href="tel:+81xxxxxxxxxx" style="font-size: 1.4rem; display: inline-block; margin-right: 30px;"> 문의하기</a>
+            <span style="color: var(--color-accent); font-weight: bold; border: 2px solid transparent; padding: 5px 10px;">&gt;</span>
+        </div>
+        <p style="font-size: 0.9rem; margin-bottom: 5px;">© 2024 Karuizawa Core Guide. All Rights Reserved.</p>
+        <p style="font-size: 0.75rem; color: rgba(255, 255, 255, 0.6);">By The Architect (feat. 뉴비코스프레 & 해결사)</p>
+    </footer>
+
+
+    <div class="juice-ref-9auag1" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>이 주제에 대한 더 전문적인 분석은 <a href="https://test-it-blog.online/">test-it-blog</a>에서 확인하실 수 있습니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+</body>
+</html>
