@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-karuizawa-resort/</loc>
+    <loc>https://karuizawa-resort-guide.pbn-builder.xyz/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-karuizawa-resort/posts/checklist-001-blni7j.html</loc>
+    <loc>https://karuizawa-resort-guide.pbn-builder.xyz/posts/checklist-001-blni7j.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-karuizawa-resort/posts/guide-001-1sguqpn.html</loc>
+    <loc>https://karuizawa-resort-guide.pbn-builder.xyz/posts/guide-001-1sguqpn.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-karuizawa-resort/posts/qa-002-1sguqpn.html</loc>
+    <loc>https://karuizawa-resort-guide.pbn-builder.xyz/posts/qa-002-1sguqpn.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-karuizawa-resort/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
