@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sangam-fullsalon-note.roundlog.site/sitemap.xml
-Sitemap: https://sangam-fullsalon-note.roundlog.site/sitemap-pages.xml
+Sitemap: https://karuizawa-resort-guide.pbn-builder.xyz/sitemap.xml
+Sitemap: https://karuizawa-resort-guide.pbn-builder.xyz/sitemap-pages.xml
